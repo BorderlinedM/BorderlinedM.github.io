@@ -17,7 +17,7 @@ h1 {
     margin: 10px;
     padding: 20px;
     text-align: center;
-    background-color: white;
+    background-color: rgb(180, 100, 180);
     border-radius: 10px;
 }
 
@@ -32,7 +32,6 @@ iframe {
 }
 
 .video-row {
-    color: purple;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
