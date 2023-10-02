@@ -23,7 +23,7 @@ h1 {
 
 iframe {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .caption {
@@ -32,6 +32,7 @@ iframe {
 }
 
 .video-row {
+    color: purple;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
