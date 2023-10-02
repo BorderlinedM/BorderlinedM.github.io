@@ -1,0 +1,15 @@
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+iframe {
+    width: 48%; /* Adjust as needed */
+    margin-bottom: 20px;
+}
+
+p {
+    width: 48%; /* Adjust as needed */
+    text-align: center;
+}
