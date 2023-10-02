@@ -2,9 +2,7 @@ body {
     background-color: purple;
     margin: 0;
     padding: 0; 
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    font-family: Arial, sans-serif;
  }
 
 h1 {
@@ -15,27 +13,21 @@ h1 {
 }
 
 .video-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px;
-    margin: 20px;
-}
-
-.video-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
     text-align: center;
-    margin: 20px;
-    width: calc(50% - 40px);
-    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
 }
 
 iframe {
     width: 100%;
-    height: auto;
+    height: 315px;
 }
 
-p {
+.caption {
     margin-top: 10px;
     color: white;
 }
